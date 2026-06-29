@@ -1,0 +1,38 @@
+# Build directories
+build/
+bin/
+obj/
+out/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# Compile database
+compile_commands.json
+
+# IDEs
+.vscode/
+.idea/
+.vs/
+*.user
+*.suo
+
+# Data and large binaries
+itch-parser/data/01302019.NASDAQ_ITCH50.25MB.bin
+itch-parser/data/S010303-v2.zip
+itch-parser/data/S010303-v2.txt
+itch-parser/data/NQTVITCHspecification.pdf
+itch-parser/data/*.bin
+itch-parser/data/*.zip
+itch-parser/data/*.gz
+
+# Executables and libraries
+*.exe
+*.a
+*.lib
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
